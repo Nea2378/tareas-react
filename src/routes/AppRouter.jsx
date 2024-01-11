@@ -15,7 +15,7 @@ function AppRouter() {
                 { /*RUTAS PROPIAS*/ }
                 <Route path="home" element={<Home />} />
                 <Route path="agregar" element={<Detalle />} />
-                <Route path="editar" element={<Detalle />} />
+                <Route path="editar/:id" element={<Detalle />} />
                 <Route path="listado" element={<Listado />} />
             </Routes>
         </>
